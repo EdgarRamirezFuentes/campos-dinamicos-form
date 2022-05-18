@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
             return `
             <div class="center-content my-3 show" id="image-component-${this.id}">
                 <div class="center-content">
-                    <label for="image-input${this.id}" class="my-3">Selecciona una imagen</label>
+                    <label for="image-input-${this.id}" class="my-3">Selecciona una imagen</label>
                     <input type="file" name="image-input-${this.id}" id="image-input-${this.id}">
                 </div>
                 <div class="center-content">
-                    <label for="image-description${this.id}" class="my-3">Descripción</label>
+                    <label for="image-description-${this.id}" class="my-3">Descripción</label>
                     <textarea name="image-description-${this.id}" id="image-description-${this.id}"></textarea>
                 </div>
                 <button type="button" class="btn btn-danger my-2" id="remove-button-${this.id}"
